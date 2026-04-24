@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Refatorando</title>
+    <link rel="icon" href="https://cache.refatorando.com/wp-content/uploads/2023/05/Favicon_Refatorando-1-100x100.png" type="image/x-icon">
+    <link rel="stylesheet" href="./public/css/styles.css">
+</head>
+<body>
+    <div class="login_container">
+        <div class="login_text">
+            <div class="login_text_content">
+                <h1>Olá!<br> Seja bem-vindo(a) de volta.</h1>
+                <h2>Faça login para continuar acessando a página</h2>
+            </div>
+        </div>
+        <div class="form_container">
+            <div class="login_form">
+                <form class="login_form_content">
+                    <img src="public/images/Logo_Horizontal_colorida_Refatorando_1.png"  alt="Logo da empresa Refatorando" width="200px">
+                    <h3>Faça seu Login</h3>
+                    <input type="email" placeholder="E-mail" required>
+                    <input type="password" placeholder="Senha" required>
+                    <a class="pwd_recovery" href="link_recuperar_senha">Esqueci minha senha</a>
+                    <button type="submit">Entrar</button>
+                </form>
+                <div class="login_form_divider">
+                    <div>Ou faça login com</div>
+                </div> 
+                    <a href="entrar_com_google" class="login_google">
+                        <div id="google_container">
+                            <div id="google_icon"></div>
+                            <span id="google_sign_in">Sign in with Google</span>
+                        </div>
+                    </a>    
+                    <span class="login_subscribe">
+                        Não tem uma conta?<a href="link_para_inscrever"> Inscreva-se</a>
+                    </span>    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
